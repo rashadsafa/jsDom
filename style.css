@@ -27,4 +27,7 @@ body {
   background-color: #ffffff;
   border: 1px solid #000000;
   border-radius: 20px;
+}
+#chat .box .message .text input h3 {
+  background-color: #ff00ff;
 }/*# sourceMappingURL=style.css.map */
