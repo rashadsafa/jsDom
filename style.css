@@ -11,7 +11,7 @@ body {
   height: 350px;
   border: 2px solid #000000;
   border-radius: 20px;
-  background-color: #ffff00;
+  background-color: #9c6644;
   padding: 10px;
 }
 #chat .box .message {
@@ -19,7 +19,7 @@ body {
   height: 250px;
   border: 1px solid #000000;
   border-radius: 20px;
-  background-color: #ff0000;
+  background-color: #ffffff;
   margin: 10px;
 }
 #chat .box .message .text input {
@@ -29,5 +29,5 @@ body {
   border-radius: 20px;
 }
 #chat .box .message .text input h3 {
-  background-color: #ff00ff;
+  background-color: #5f8094;
 }/*# sourceMappingURL=style.css.map */
