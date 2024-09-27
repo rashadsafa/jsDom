@@ -22,12 +22,12 @@ body {
   background-color: #ffffff;
   margin: 10px;
 }
-#chat .box .message .text input {
+#chat .box .message input {
   padding: 10px 20px;
   background-color: #ffffff;
   border: 1px solid #000000;
   border-radius: 20px;
 }
-#chat .box .message .text input h3 {
+#chat .box .message input h3 {
   background-color: #5f8094;
 }/*# sourceMappingURL=style.css.map */
