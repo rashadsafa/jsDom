@@ -24,9 +24,10 @@ section {
 #chat .box .message h3 {
   margin: 10px;
   background-color: #5f8094;
+  color: #ffffff;
   border: 1px solid #5f8094;
   border-radius: 20px;
-  padding: 10px 5px;
+  padding: 10px 8px;
   width: 60px;
 }
 #chat .box .text {
