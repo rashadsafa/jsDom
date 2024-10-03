@@ -19,7 +19,7 @@ $(document).ready(function () {
             }
         }
         $("#messageyou").append(myel())
-        $("#mesageme").append(myel('class= "end"'))
+        $("#messageme").append(myel('class= "end"'))
         $("#inputme").val("")
 
         document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
@@ -45,7 +45,7 @@ $(document).ready(function () {
             }
         }
         $("#messageme").append(myel())
-        $("#mesageyou").append(myel('class= "end"'))
+        $("#messageyou").append(myel('class= "end"'))
         $("#inputyou").val("")
 
         document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)

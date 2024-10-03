@@ -10,25 +10,23 @@ section {
 #chat .box {
   width: 500px;
   height: 350px;
-  border: 2px solid #000000;
   border-radius: 20px;
-  background-color: #9c6644;
+  background-color: #e4ecff;
 }
 #chat .box .message {
   height: 250px;
-  border: 1px solid #000000;
   border-radius: 20px;
   background-color: #ffffff;
   margin: 20px;
+  padding: 10px;
 }
 #chat .box .message h3 {
-  margin: 10px;
-  background-color: #5f8094;
+  margin: 5px;
+  background-color: #90a2d5;
   color: #ffffff;
-  border: 1px solid #5f8094;
   border-radius: 20px;
-  padding: 10px 8px;
-  width: 60px;
+  padding: 10px;
+  width: 65px;
 }
 #chat .box .text {
   display: flex;
@@ -37,11 +35,11 @@ section {
 }
 #chat .box .text input {
   margin-right: 10px;
+  border-radius: 20px;
 }
 #chat .box .text h3 {
-  border: 1px solid #5f8094;
   border-radius: 16px;
-  padding: 8px 12px;
-  background-color: #5f8094;
+  padding: 8px 18px;
+  background-color: #829fd7;
   color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
