@@ -7,40 +7,40 @@ section {
   padding: 50px 0;
 }
 
-#chat .box {
-  width: 500px;
+#jsDom .chat {
+  width: 450px;
   height: 350px;
+  border: 1px solid #000000;
   border-radius: 20px;
   background-color: #e4ecff;
 }
-#chat .box .message {
+#jsDom .chat .message {
   height: 250px;
+  border: 1px solid #000000;
   border-radius: 20px;
-  background-color: #ffffff;
   margin: 20px;
-  padding: 10px;
+  background-color: #ffffff;
 }
-#chat .box .message h3 {
+#jsDom .chat .message h3 {
+  background-color: #829fd7;
+  border-radius: 10px;
+  width: 70px;
   margin: 5px;
-  background-color: #90a2d5;
-  color: #ffffff;
-  border-radius: 20px;
   padding: 10px;
-  width: 65px;
 }
-#chat .box .text {
+#jsDom .chat .text {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#chat .box .text input {
-  margin-right: 10px;
+#jsDom .chat .text input {
   border: 1px solid #000000;
   border-radius: 20px;
+  background-color: #ffffff;
+  margin: 10px;
 }
-#chat .box .text h3 {
-  border-radius: 16px;
-  padding: 8px 18px;
+#jsDom .chat .text .sent {
   background-color: #829fd7;
-  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */

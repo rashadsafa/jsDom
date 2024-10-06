@@ -18,7 +18,7 @@ $(document).ready(function () {
                 return
             }
         }
-        // $("#messageyou").append(myel())
+        $("#messageyou").append(myel())
         $("#messageme").append(myel('class= "end"'))
         $("#inputme").val("")
 
@@ -44,7 +44,7 @@ $(document).ready(function () {
                 return
             }
         }
-        // $("#messageme").append(myel())
+        $("#messageme").append(myel())
         $("#messageyou").append(myel('class= "end"'))
         $("#inputyou").val("")
 
