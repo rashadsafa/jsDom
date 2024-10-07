@@ -26,7 +26,7 @@ section {
   border-radius: 10px;
   width: 70px;
   margin: 5px;
-  padding: 10px;
+  padding: 10px 20px;
 }
 #jsDom .chat .text {
   display: flex;
