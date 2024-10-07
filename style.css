@@ -21,7 +21,7 @@ section {
   margin: 20px;
   background-color: #ffffff;
 }
-#jsDom .chat .message h3 {
+#jsDom .chat .message .line h3 {
   background-color: #829fd7;
   border-radius: 10px;
   width: 70px;
