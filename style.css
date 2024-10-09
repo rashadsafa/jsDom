@@ -32,15 +32,16 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
 }
 #jsDom .chat .text input {
   border: 1px solid #000000;
   border-radius: 20px;
   background-color: #ffffff;
-  margin: 10px;
 }
 #jsDom .chat .text .sent {
   background-color: #829fd7;
   padding: 8px 18px;
   border-radius: 10px;
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
