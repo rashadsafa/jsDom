@@ -7,41 +7,72 @@ section {
   padding: 50px 0;
 }
 
-#jsDom .chat {
-  width: 450px;
-  height: 350px;
-  border: 1px solid #000000;
+#jsDom {
+  padding: 150px 0;
+}
+#jsDom .chat, #jsDom .message, #jsDom input, #jsDom .send, #jsDom .line {
   border-radius: 20px;
-  background-color: #e4ecff;
+}
+#jsDom .chat {
+  width: 500px;
+  padding: 25px;
+  background-color: #d9e0f8;
 }
 #jsDom .chat .message {
   height: 250px;
-  border: 1px solid #000000;
-  border-radius: 20px;
-  margin: 20px;
+  padding: 5px;
   background-color: #ffffff;
 }
-#jsDom .chat .message .line h3 {
-  background-color: #829fd7;
-  border-radius: 10px;
-  width: 70px;
+#jsDom .chat .message .end {
+  display: flex;
+  justify-content: flex-end;
+}
+#jsDom .chat .message div {
+  display: flex;
+}
+#jsDom .chat .message .line {
+  text-align: center;
   margin: 5px;
-  padding: 10px 20px;
+  max-width: 60%;
+  padding: 10px;
 }
 #jsDom .chat .text {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+#jsDom .chat .message {
+  overflow: auto;
+}
+#jsDom .chat .message::-webkit-scrollbar {
+  display: none;
+  width: 5px;
+}
+#jsDom .chat .message::-webkit-scrollbar-track {
+  background-color: white;
+}
+#jsDom .chat .message::-webkit-scrollbar-thumb {
+  background-color: #9f9b9b;
+}
+#jsDom .chat .send, #jsDom .chat .line {
+  color: white;
+  background-color: #94a6e6;
+}
+#jsDom .chat .send {
+  display: flex;
   align-items: center;
-  border-radius: 20px;
+  justify-content: center;
+  width: 70px;
+  margin: 0 10px;
 }
-#jsDom .chat .text input {
-  border: 1px solid #000000;
-  border-radius: 20px;
-  background-color: #ffffff;
+#jsDom .chat h3 {
+  font-size: 16px;
+  word-break: break-word;
 }
-#jsDom .chat .text .sent {
-  background-color: #829fd7;
-  padding: 8px 18px;
-  border-radius: 10px;
-  margin-left: 10px;
+#jsDom .chat h3 input {
+  font-size: 16px;
+  width: 160px;
+  padding: 6px 15px;
 }/*# sourceMappingURL=style.css.map */

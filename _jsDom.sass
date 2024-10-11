@@ -1,34 +1,53 @@
 #jsDom
-    .chat
-        width: 450px
-        height: 350px
-        border: 1px solid #000000
+    padding: 150px 0
+    .chat,.message,input,.send,.line
         border-radius: 20px
-        background-color: #e4ecff
+    .chat
+        width: 500px
+        padding: 25px
+        background-color: #d9e0f8
         .message
             height: 250px
-            border: 1px solid #000000
-            border-radius: 20px
-            margin: 20px
+            padding: 5px
             background-color: #ffffff
+            .end
+                display: flex
+                justify-content: flex-end
+            div
+                display: flex
             .line
-                h3
-                    background-color: #829fd7
-                    border-radius: 10px
-                    width: 70px
-                    margin: 5px
-                    padding: 10px 20px
+                text-align: center
+                margin: 5px
+                max-width: 60%
+                padding: 10px
         .text
             display: flex
+            flex-direction: row
             justify-content: center
-            align-items: center
+            margin-top: 25px
             border-radius: 20px
+        .message
+            overflow: auto
+        .message::-webkit-scrollbar
+            display: none
+            width: 5px
+        .message::-webkit-scrollbar-track
+            background-color: #ffff
+        .message::-webkit-scrollbar-thumb
+            background-color: #9f9b9b
+        .send,.line
+            color: #ffff
+            background-color: #94a6e6
+        .send
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 70px
+            margin: 0 10px
+        h3
+            font-size: 16px
+            word-break: break-word
             input
-                border: 1px solid #000000
-                border-radius: 20px
-                background-color: #ffffff
-            .sent
-                background-color: #829fd7
-                padding: 8px 18px
-                border-radius: 10px
-                margin-left: 10px
+                font-size: 16px
+                width: 160px
+                padding: 6px 15px
