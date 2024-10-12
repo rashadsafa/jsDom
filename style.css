@@ -33,7 +33,7 @@ section {
 #jsDom .chat .message .line {
   text-align: center;
   margin: 5px;
-  max-width: 60%;
+  max-width: 50%;
   padding: 10px;
 }
 #jsDom .chat .text {
