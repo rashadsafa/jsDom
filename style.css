@@ -22,6 +22,7 @@ section {
   height: 250px;
   padding: 5px;
   background-color: #ffffff;
+  overflow: auto;
 }
 #jsDom .chat .message .end {
   display: flex;
@@ -43,18 +44,9 @@ section {
   margin-top: 25px;
   border-radius: 20px;
 }
-#jsDom .chat .message {
-  overflow: auto;
-}
 #jsDom .chat .message::-webkit-scrollbar {
   display: none;
   width: 5px;
-}
-#jsDom .chat .message::-webkit-scrollbar-track {
-  background-color: white;
-}
-#jsDom .chat .message::-webkit-scrollbar-thumb {
-  background-color: #9f9b9b;
 }
 #jsDom .chat .send, #jsDom .chat .line {
   color: white;
