@@ -75,4 +75,9 @@ section {
   font-size: 16px;
   width: 160px;
   padding: 6px 15px;
+}
+@media screen and (max-width: 576px) {
+  #jsDom .chat {
+    margin: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
