@@ -8,7 +8,7 @@ section {
 }
 
 #jsDom {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 #jsDom .chat, #jsDom .message, #jsDom input, #jsDom .send, #jsDom .line {
   border-radius: 20px;
